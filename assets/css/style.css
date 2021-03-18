@@ -8,39 +8,47 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/*Header and Navigation Bar Appearance*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/*This is the header on all pages*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*color span change for letters "S, E, O" in "Horiseon"*/
+h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
-    padding-top: 15px;
+/*Navigation formatting for all pages*/   
+nav {
+    float:inline-block;
     margin-right: 20px;
-    float: right;
+    padding-right: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+header nav ul {
+    display:inline-block;
+    margin-right: 20px;
+    
+    
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    
 }
 
+/*Articles / Offerings Detailed*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/*screenwide image at top of page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -75,7 +84,8 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+/*Aside information on right hand side of page*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -134,25 +144,8 @@ p {
     max-width: 150px;
 }
 
+/*article 1*/
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -165,22 +158,43 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*article 2*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/*article 3*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
 }
 
 .social-media-marketing h2 {
@@ -188,13 +202,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/*footer styling*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
